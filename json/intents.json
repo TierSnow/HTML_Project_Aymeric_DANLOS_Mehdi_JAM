@@ -1,0 +1,248 @@
+{
+  "intents": [
+    {
+      "tag": "greet",
+      "patterns": ["Hello", "Hi", "Hey", "Cuckoo"],
+      "responses": ["Hello! I'm your EFREI course assistant. Ask me about semesters, modules (UEs), or specific classes."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Thanks bye"],
+      "responses": ["Good luck with your studies at EFREI! Come back if you have more questions."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Merci"],
+      "responses": ["You're welcome! Happy to help an EFREI student."]
+    },
+    {
+      "tag": "semester1_modules",
+      "patterns": ["What modules in semester 1?", "S1 UEs", "S1", "Semester 1", "First semester,", "First", "Semester 1 modules", "S1 structure"],
+      "responses": ["Semester 1 has these modules (UEs):\n• UE Informatique (8 credits)\n• UE Mathématiques (8 credits)\n• UE Physique et électronique (8 credits)\n• Other courses: FH101 (3cr), FL101 (3cr), LV2ANG (1cr)\n\nAsk me about 'UE Informatique S1' or 'UE Mathématiques S1' for specific classes."]
+    },
+    {
+      "tag": "semester2_modules",
+      "patterns": ["Semester 2 modules", "S2 UEs", "What modules in S2?", "S2", "Second", "Semester 2", "Second semester"],
+      "responses": ["Semester 2 modules (UEs):\n• UE Formation générale (5 credits)\n• UE Informatique (7 credits)\n• UE Mathématiques (7 credits)\n• UE Physique et électronique (7 credits)\n• Other courses: FHS201, LV2ANG, TI250, ST101, TOEIC blanc\n\nAsk me about 'UE Informatique S2' or 'UE Mathématiques S2' for details."]
+    },
+    {
+      "tag": "semester3_modules",
+      "patterns": ["Semester 3 modules", "S3 UEs", "Modules in S3", "S3", "Third", "Semester 3", "Third semester"],
+      "responses": ["Semester 3 modules (UEs):\n• UE31 - Mathématiques (8 credits)\n• UE33 - Informatique générale (8 credits)\n• UE35 - Physique et électronique (8 credits)\n• UE37 - Formation générale (6 credits)\n\nAsk about 'UE Mathématiques S3', 'UE Informatique S3', etc."]
+    },
+    {
+      "tag": "semester4_modules",
+      "patterns": ["Semester 4 modules", "S4 UEs", "Modules in S4", "S4", "Fourth", "Semester 4", "Fourth semester"],
+      "responses": ["Semester 4 modules (UEs):\n• UE41 - Mathématiques (7 credits)\n• UE43 - Informatique générale (8 credits)\n• UE45 - Physique et électronique (7 credits)\n• UE47 - Formation générale (4 credits)\n• Other: TI450, ST102, FITOEIC-S4\n\nAsk about 'UE Mathématiques S4', 'UE Informatique S4', etc."]
+    },
+    {
+      "tag": "semester5_modules",
+      "patterns": ["Semester 5 modules", "S5 UEs", "Modules in S5", "S5", "Fifth", "Semester 5", "Fifth semester"],
+      "responses": ["The modules past the first two years are sadly unavaliable as of now\n"]
+    },
+    {
+      "tag": "ue_informatique_s1",
+      "patterns": ["UE Informatique S1", "Informatique module semester 1", "CS module S1"],
+      "responses": ["UE Informatique (S1) - 8 credits total:\n• TI102I - Algorithmics (4cr) - Avg 16.03\n• TI101I - Programming in Python (4cr) - Avg 13.29\n\nAsk about 'Algorithmics' or 'Python' for more details."]
+    },
+    {
+      "tag": "ue_mathematiques_s1",
+      "patterns": ["UE Mathématiques S1", "Math module S1", "Maths UE S1"],
+      "responses": ["UE Mathématiques (S1) - 8 credits total:\n• SM101I - Calculus 1 (4cr) - Avg 9.56\n• SM102I - General Algebra (4cr) - Avg 11.55\n\nAsk about 'Calculus 1' or 'General Algebra' for grading details."]
+    },
+    {
+      "tag": "ue_physique_s1",
+      "patterns": ["UE Physique S1", "Physics module S1", "UE Physique et électronique S1"],
+      "responses": ["UE Physique et électronique (S1) - 8 credits total:\n• SP106I - General Electricity (4cr) - Avg 12.40\n• SP107I - General Physics (4cr) - Avg 14.53\n\nAsk about 'General Electricity' or 'General Physics' for more."]
+    },
+    {
+      "tag": "ue_informatique_s2",
+      "patterns": ["UE Informatique S2", "Informatique module S2", "CS module S2"],
+      "responses": ["UE Informatique (S2) - 7 credits total:\n• TI202I - Algorithmics & Data Structures 1 (5cr) - Avg 16.23\n• TI205I - Complexity (2cr) - Avg 15.00\n\nAsk about 'Data Structures' or 'Complexity' for details."]
+    },
+    {
+      "tag": "ue_mathematiques_s2",
+      "patterns": ["UE Mathématiques S2", "Math module S2", "Maths UE S2"],
+      "responses": ["UE Mathématiques (S2) - 7 credits total:\n• SM201I - Calculus 2 (3cr) - Avg 11.66\n• SM202I - Linear Algebra (4cr) - Avg 8.90\n\nAsk about 'Calculus 2' or 'Linear Algebra' for more."]
+    },
+    {
+      "tag": "ue_physique_s2",
+      "patterns": ["UE Physique S2", "Physics module S2", "UE Physique et électronique S2"],
+      "responses": ["UE Physique et électronique (S2) - 7 credits total:\n• TE203I - Digital Information (2cr) - Avg 16.58\n• SP201I - From Atom to Microchip (2cr) - Avg 9.45\n• TE201I - From System to Function (2cr) - Avg 12.90\n\nAsk about 'Digital Information' or 'Atom to Microchip' for details."]
+    },
+    {
+      "tag": "ue_mathematiques_s3",
+      "patterns": ["UE Mathématiques S3", "Math module S3", "UE31 S3"],
+      "responses": ["UE31 - Mathématiques (S3) - 8 credits total:\n• SM302I - Multivariate Analysis (4cr) - Avg 9.83\n• SM301I - Probability (3cr) - Avg 12.65\n\nAsk about 'Multivariate Analysis' or 'Probability' for grading weights."]
+    },
+    {
+      "tag": "ue_informatique_s3",
+      "patterns": ["UE Informatique S3", "UE33 S3", "CS module S3"],
+      "responses": ["UE33 - Informatique générale (S3) - 8 credits total:\n• TI301I - Data Structures & Programming 2 (4cr) - Avg 13.57\n• TI307I - Introduction to Linux (1cr) - Avg 12.80\n• TI305I - Networks 1 (3cr) - Avg 15.20\n\nAsk about 'Data Structures 2', 'Linux', or 'Networks 1' for details."]
+    },
+    {
+      "tag": "ue_physique_s3",
+      "patterns": ["UE Physique S3", "UE35 S3", "Physics module S3"],
+      "responses": ["UE35 - Physique et électronique (S3) - 8 credits total:\n• TE302I - Digital Systems (3cr)\n• SP301I - Electromagnetic Fields (3cr)\n• SP303I - Modern Physics (2cr) - Avg 13.05\n\nNote: Final grades missing for TE302I and SP301I. Ask for details on each."]
+    },
+    {
+      "tag": "ue_mathematiques_s4",
+      "patterns": ["UE Mathématiques S4", "UE41 S4", "Math module S4"],
+      "responses": ["UE41 - Mathématiques (S4) - 7 credits total:\n• SM403I - Data Analysis (3cr)\n• SM402I - Finite Automata (3cr)\n• SM401I - Mathematical Modeling (3cr)\n\nAsk about individual classes for more info."]
+    },
+    {
+      "tag": "ue_informatique_s4",
+      "patterns": ["UE Informatique S4", "UE43 S4", "CS module S4"],
+      "responses": ["UE43 - Informatique générale (S4) - 8 credits total:\n• TI404I - Databases 1 (3cr)\n• TI403I - Java 1: OOP (3cr)\n• TI402I - Web Programming 1 (2cr)\n\nAsk about 'Databases 1', 'Java 1', or 'Web Programming 1' for details."]
+    },
+    {
+      "tag": "ue_physique_s4",
+      "patterns": ["UE Physique S4", "UE45 S4", "Physics module S4"],
+      "responses": ["UE45 - Physique et électronique (S4) - 7 credits total:\n• SP401I - Electromagnetic Propagation (3cr)\n• SP402I - Thermodynamics (2cr)\n• TE403I - Transmission Channels (3cr)\n\nAsk about specific courses for components."]
+    },
+    {
+      "tag": "algorithmics",
+      "patterns": ["Algorithmics", "TI102I", "Algo class"],
+      "responses": ["Algorithmics (TI102I) - S1, UE Informatique\n• Credits: 4\n• Avg grade: 16.03\n• Grading: DE (60%), CC1 (10%), CC2 (10%), CC3 (10%)\nFocus on problem-solving and logic."]
+    },
+    {
+      "tag": "python",
+      "patterns": ["Python", "TI101I", "Python programming"],
+      "responses": ["Programming in Python (TI101I) - S1, UE Informatique\n• Credits: 4\n• Avg grade: 13.29\n• Grading: DE (50%), Project (20%)\nPractice coding regularly to improve."]
+    },
+    {
+      "tag": "calculus1",
+      "patterns": ["Calculus 1", "SM101I"],
+      "responses": ["Calculus 1 (SM101I) - S1, UE Mathématiques\n• Credits: 4\n• Avg grade: 9.56\n• Grading: DE (50%), CC1 (10%), CC2 (10%)\nAttend tutorials and do past exams!"]
+    },
+    {
+      "tag": "algebra",
+      "patterns": ["General Algebra", "SM102I", "Algebra"],
+      "responses": ["General Algebra (SM102I) - S1, UE Mathématiques\n• Credits: 4\n• Avg grade: 11.55\n• Grading: DE (50%), TD (20%)\nPractice matrix and vector operations."]
+    },
+    {
+      "tag": "electricity",
+      "patterns": ["General Electricity", "SP106I"],
+      "responses": ["General Electricity (SP106I) - S1, UE Physique\n• Credits: 4\n• Avg grade: 12.40\n• Grading: DE (50%), TP (20%), CC1 (10%)\nLab work (TP) is important."]
+    },
+    {
+      "tag": "general_physics",
+      "patterns": ["General Physics", "SP107I"],
+      "responses": ["General Physics (SP107I) - S1, UE Physique\n• Credits: 4\n• Avg grade: 14.53\n• Grading: DE (60%), CC1 (10%)\nGood foundations for electronics."]
+    },
+    {
+      "tag": "data_structures",
+      "patterns": ["Data Structures", "TI202I", "Algorithmics and Data Structures"],
+      "responses": ["Algorithmics & Data Structures 1 (TI202I) - S2, UE Informatique\n• Credits: 5\n• Avg grade: 16.23\n• Grading: DE (50%), Project (20%)\nKey for coding interviews!"]
+    },
+    {
+      "tag": "complexity",
+      "patterns": ["Complexity", "TI205I", "Algorithm complexity"],
+      "responses": ["Complexity (TI205I) - S2, UE Informatique\n• Credits: 2\n• Avg grade: 15.00\n• Grading: DE (60%)\nFocus on Big O notation and algorithm analysis."]
+    },
+    {
+      "tag": "calculus2",
+      "patterns": ["Calculus 2", "SM201I"],
+      "responses": ["Calculus 2 (SM201I) - S2, UE Mathématiques\n• Credits: 3\n• Avg grade: 11.66\n• Grading: DE (50%), CTD (20%)\nBuilds on Calculus 1."]
+    },
+    {
+      "tag": "linear_algebra",
+      "patterns": ["Linear Algebra", "SM202I"],
+      "responses": ["Linear Algebra (SM202I) - S2, UE Mathématiques\n• Credits: 4\n• Avg grade: 8.90\n• Grading: DE (40%), TD (10%)\nChallenging – form study groups!"]
+    },
+    {
+      "tag": "digital_info",
+      "patterns": ["Digital Information", "TE203I"],
+      "responses": ["Digital Information (TE203I) - S2, UE Physique\n• Credits: 2\n• Avg grade: 16.58\n• Grading: DE (60%), CC1 (10%)\nGreat average – binary, logic gates."]
+    },
+    {
+      "tag": "atom_to_microchip",
+      "patterns": ["Atom to Microchip", "SP201I"],
+      "responses": ["From Atom to Microchip (SP201I) - S2, UE Physique\n• Credits: 2\n• Avg grade: 9.45\n• Grading: DE (60%), TAI (10%)\nTough but fundamental."]
+    },
+    {
+      "tag": "probability",
+      "patterns": ["Probability", "SM301I"],
+      "responses": ["Probability (SM301I) - S3, UE Mathématiques\n• Credits: 3\n• Avg grade: 12.65\n• Grading: CE (20%), DE (50%)\nGood for data science later."]
+    },
+    {
+      "tag": "multivariate",
+      "patterns": ["Multivariate Analysis", "SM302I"],
+      "responses": ["Multivariate Analysis (SM302I) - S3, UE Mathématiques\n• Credits: 4\n• Avg grade: 9.83\n• Grading: DE (40%), CC (20%)\nStatistics-heavy."]
+    },
+    {
+      "tag": "linux",
+      "patterns": ["Linux", "TI307I", "Intro to Linux"],
+      "responses": ["Introduction to Linux (TI307I) - S3, UE Informatique\n• Credits: 1\n• Avg grade: 12.80\n• Grading: DE (60%), CC (40%)\nCommand line, shell scripting."]
+    },
+    {
+      "tag": "networks1",
+      "patterns": ["Networks 1", "TI305I", "Networking"],
+      "responses": ["Networks 1 (TI305I) - S3, UE Informatique\n• Credits: 3\n• Avg grade: 15.20\n• Grading: DE (60%), CC (20%)\nGood for IT careers."]
+    },
+    {
+      "tag": "data_struct2",
+      "patterns": ["Data Structures 2", "TI301I", "Programming 2"],
+      "responses": ["Data Structures & Programming 2 (TI301I) - S3, UE Informatique\n• Credits: 4\n• Avg grade: 13.57\n• Grading: DE (50%), Project (20%)\nAdvanced C/data structures."]
+    },
+    {
+      "tag": "java_oop",
+      "patterns": ["Java 1", "TI403I", "OOP Java"],
+      "responses": ["Java 1: OOP (TI403I) - S4, UE Informatique\n• Credits: 3\n• Components: CE, DE, TP\nStart early on practical work (TP)."]
+    },
+    {
+      "tag": "databases1",
+      "patterns": ["Databases 1", "TI404I", "SQL"],
+      "responses": ["Databases 1 (TI404I) - S4, UE Informatique\n• Credits: 3\n• Components: CE, DE, TP\nLearn SQL and database design."]
+    },
+    {
+      "tag": "web_prog",
+      "patterns": ["Web Programming 1", "TI402I", "HTML CSS JS"],
+      "responses": ["Web Programming 1 (TI402I) - S4, UE Informatique\n• Credits: 2\n• Components: CE, DE, Project\nBuild a small website to practice."]
+    },
+    {
+      "tag": "english",
+      "patterns": ["English EFREI", "FL101", "FL201", "FL301", "FL401"],
+      "responses": ["EFREI English courses:\n• S1: English 1 (FL101) - Avg 16.84\n• S2: English 2 (FL201) - Avg 16.74\n• S3: English 3 (FL301) - Avg 16.62\n• S4: English 4 (FL401)\nHigh grades possible with effort!"]
+    },
+    {
+      "tag": "toeic",
+      "patterns": ["TOEIC", "TOEIC blanc", "FITOEIC"],
+      "responses": ["TOEIC blanc in S2: Average 940 (Listening 495, Reading 445). Excellent score! Keep practicing for the official exam."]
+    },
+    {
+      "tag": "internships",
+      "patterns": ["Internship", "ST101", "ST102", "Stage"],
+      "responses": ["Internships at EFREI:\n• S2: ST101 - Execution Internship (avg 16.38)\n• S4: ST102 - Commercial Internship\nStart searching early and network!"]
+    },
+    {
+      "tag": "projects",
+      "patterns": ["Delivery Project", "TI350I", "TI450", "Transverse project"],
+      "responses": ["Projects:\n• S3: TI350I - Delivery Project #1 (avg 17.16)\n• S4: TI450 - Delivery Project #2\nBoth 100% project-based. Great for teamwork skills."]
+    },
+    {
+      "tag": "learning_experience",
+      "patterns": ["LXP201", "Learning Experience"],
+      "responses": ["Learning Experience (LXP201) - S2: Average 20.00! Excellent course on study methods and personal development."]
+    },
+    {
+      "tag": "hard_courses",
+      "patterns": ["Hardest class", "Difficult courses", "Lowest grades"],
+      "responses": ["Challenging courses based on averages:\n• Linear Algebra (8.90)\n• Calculus 1 (9.56)\n• Electromagnetic Fields (very low DE avg)\n• Thermodynamics (S4, often tough)\nAttend office hours and form study groups!"]
+    },
+    {
+      "tag": "grade_weights",
+      "patterns": ["Grading", "DE", "CC", "CE", "Weights", "How are grades calculated?"],
+      "responses": ["Common components:\n• DE = Final Exam\n• CC = Continuous Assessment (quizzes)\n• CE = In-class Exam\n• TP = Practical Work\n• TD = Tutorials\n• PRJ = Project\nWeights vary by course. Check each syllabus."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure about that. Try asking about a semester (e.g., 'modules in S3'), a module ('UE Informatique S2'), or a specific course code ('TI102I').",
+        "Can you rephrase? I have info on EFREI S1-S4 modules and classes.",
+        "That doesn't match my data. Ask me for 'semester modules' or 'UE Mathématiques S1'."
+      ]
+    }
+  ]
+}
