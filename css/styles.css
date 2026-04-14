@@ -33,6 +33,30 @@ nav {
     width: 100%;
 }
 
-li img {
+#chat-box {
+  max-width: 800px;
+  text-align: center;
+  height: 300px;
+  overflow-y: auto;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
 
+#user-input {
+   width: 700px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  display: block;
+}
+#send-btn {
+  display: block;
+  margin: 0 auto;
 }
