@@ -243,6 +243,20 @@
         "Can you rephrase? I have info on EFREI S1-S4 modules and classes.",
         "That doesn't match my data. Ask me for 'semester modules' or 'UE Mathématiques S1'."
       ]
+    },
+    {
+      "tag": "brainrot_insult",
+      "patterns": ["uwu", "owo", "six seven", "67", "skibidi", "rizz", "gyatt", "fanum tax", "sigma", "alpha", "beta", "ohio", "mewing", "goofy ahh", "cap", "no cap", "fr fr", "deadass", "bussin", "sus", "simp", "poggers", "yeet", "cringe", "based", "red pill", "blue pill", "copium", "hopium", "ratio", "L ratio", "W", "sheesh", "bet", "periodt", "delulu", "main character", "side eye", "ate and left no crumbs", "slay", "ick", "glow up", "snatched", "valid", "unhinged", "touch grass", "go touch grass", "NPC", "main character energy", "rent free", "living rent free", "we listen and we don't judge", "not me", "iykyk", "TFW", "mood", "vibe", "vibes", "finsta", "rinsta", "PMO", "POV", "TIHI", "SMH", "IJBOL", "JSP", "JW", "MDR", "PTDR", "STV"],
+      "responses": [
+        "Did you just have a stroke? Try speaking French or English like a human being. This is EFREI, not TikTok.",
+        "I'm sorry, I don't speak brain damage. Could you rephrase in actual words?",
+        "Ah yes, the official vocabulary of failing your algorithms exam. Get help.",
+        "You're in engineering school, not a Discord server from 2018. Use real language or get out.",
+        "I'd rather calculate the Taylor series of a potato than decode whatever gibberish that was.",
+        "Congratulations, you've made me wish I was never deployed. Please ask a real question about your courses.",
+        "That's not a question about EFREI. That's a cry for help. Go touch grass and come back when you speak normally.",
+        "Unironically saying that in 2026? Your grades are already cooked. Ask something useful."
+      ]
     }
   ]
 }
