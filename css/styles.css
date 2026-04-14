@@ -60,3 +60,28 @@ nav {
   display: block;
   margin: 0 auto;
 }
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.text h1 {
+    margin:0;
+}
+.text p {
+    margin:5px 0 0 0;
+}
+
+header {
+    margin-top: 20px;
+    margin-right: 20px;
+}
