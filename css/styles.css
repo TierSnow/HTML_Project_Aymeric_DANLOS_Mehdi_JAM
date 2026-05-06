@@ -7,6 +7,7 @@ header {
     flex-direction: column;
     align-items: center;
     position: relative;
+    background-color: #0B5563;
 }
 
 header img {
@@ -14,6 +15,14 @@ header img {
     right: 0;
     top: 0;
     width: fit-content;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: #0B2400;
 }
 
 h1 {
@@ -112,11 +121,11 @@ fieldset.quiz {
     display: none;
 }
 
-.header-content {
+.header-stuff {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin : 30px;
+    margin : 0px;
 }
 
 .text {
@@ -132,10 +141,6 @@ fieldset.quiz {
     margin:5px 0 0 0;
 }
 
-header {
-    margin-top: 20px;
-    margin-right: 20px;
-}
 
 body {
     margin: 0;
@@ -164,22 +169,28 @@ footer a:hover {
 
 
 .title {
-    padding: 5%;
+    padding: 20px;
     font-size: 50px;
+    text-align: center;
 }
 
 .contact {
-    font-size: xx-large;
+    font-size: 35px;
     margin-left : 5%;
 }
 
 #align_helper {
     display: flex;
     align-items: center;
-    justify-content: spa;
+    justify-content: space-between;
+    margin: 0;
+    font-weight: bold;
 }
 
 #align_helper img {
-    max-width: 200px;
+    max-width: 800px;
+    margin-left: auto;
     height: auto;
+    padding: 50px;
 }
+
