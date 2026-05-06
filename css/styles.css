@@ -61,6 +61,7 @@ nav {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 
 .name, .surname, .birthdate, .email, .status {
     background-color: limegreen;
@@ -107,4 +108,54 @@ input[type="submit"]:hover {
 
 fieldset.quiz {
     display: none;
+=======
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.text h1 {
+    margin:0;
+}
+.text p {
+    margin:5px 0 0 0;
+}
+
+header {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #0B5563   ; 
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    color: orange;
+}
+
+footer a:hover {
+    color: darkorange;
+>>>>>>> ec8e97d2187d2f72d8db792cc7d661210e475c9b
 }
