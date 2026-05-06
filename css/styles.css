@@ -1,3 +1,7 @@
+body {
+    font-family: Helvetica;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -60,8 +64,6 @@ nav {
   display: block;
   margin: 0 auto;
 }
-
-<<<<<<< HEAD
 
 .name, .surname, .birthdate, .email, .status {
     background-color: limegreen;
@@ -157,5 +159,26 @@ footer a {
 
 footer a:hover {
     color: darkorange;
->>>>>>> ec8e97d2187d2f72d8db792cc7d661210e475c9b
+}
+
+
+.title {
+    padding: 5%;
+    font-size: 50px;
+}
+
+.contact {
+    font-size: xx-large;
+    margin-left : 5%;
+}
+
+#align_helper {
+    display: flex;
+    align-items: center;
+    justify-content: spa;
+}
+
+#align_helper img {
+    max-width: 200px;
+    height: auto;
 }
