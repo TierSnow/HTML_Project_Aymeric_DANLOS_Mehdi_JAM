@@ -31,6 +31,11 @@ header a:hover {
     align-items: center;
     margin : 0px;
     color:aliceblue;
+
+}
+
+.forcebig {
+    font-size: 37px;
 }
 
 h1 {
@@ -134,7 +139,7 @@ fieldset.quiz {
 .text {
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 30px 300px 0px 10px;
 }
 
 .text h1 {
