@@ -122,11 +122,15 @@ document.addEventListener('DOMContentLoaded', () => {
     
     fetchJSON('../json/intents.json');
     
-    // Also allow Enter key to send
+    // Enter key support
     document.getElementById('user-input').addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
             sendUserMessage();
         }
+    });
+
+    document.getElementById('send-btn').addEventListener('click', () => {
+        sendUserMessage();
     });
 });
 
