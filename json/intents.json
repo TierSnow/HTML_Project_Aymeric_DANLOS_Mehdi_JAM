@@ -246,7 +246,7 @@
     },
     {
       "tag": "brainrot_insult",
-      "patterns": ["uwu", "owo", "six seven", "67", "skibidi", "rizz", "gyatt", "fanum tax", "sigma", "alpha", "beta", "ohio", "mewing", "goofy ahh", "cap", "no cap", "fr fr", "deadass", "bussin", "sus", "simp", "poggers", "yeet", "cringe", "based", "red pill", "blue pill", "copium", "hopium", "ratio", "L ratio", "W", "sheesh", "bet", "periodt", "delulu", "main character", "side eye", "ate and left no crumbs", "slay", "ick", "glow up", "snatched", "valid", "unhinged", "touch grass", "go touch grass", "NPC", "main character energy", "rent free", "living rent free", "we listen and we don't judge", "not me", "iykyk", "TFW", "mood", "vibe", "vibes", "finsta", "rinsta", "PMO", "POV", "TIHI", "SMH", "IJBOL", "JSP", "JW", "MDR", "PTDR", "STV"],
+      "patterns": ["uwu", "owo", "six seven", "67", "skibidi", "rizz", "gyatt", "fanum tax", "beta", "ohio", "mewing", "goofy ahh"],
       "responses": [
         "Did you just have a stroke? Try speaking French or English like a human being. This is EFREI, not TikTok.",
         "I'm sorry, I don't speak brain damage. Could you rephrase in actual words?",
