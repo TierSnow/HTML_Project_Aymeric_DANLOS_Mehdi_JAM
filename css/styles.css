@@ -25,6 +25,14 @@ header a:hover {
     color: #0B2400;
 }
 
+.header-stuff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 0px;
+    color:aliceblue;
+}
+
 h1 {
     font-size: 24px;
     text-align: center;
@@ -121,12 +129,7 @@ fieldset.quiz {
     display: none;
 }
 
-.header-stuff {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin : 0px;
-}
+
 
 .text {
     display: flex;
