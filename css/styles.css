@@ -208,36 +208,7 @@ footer a:hover {
 
 
 
-.calendar-section {
-    max-width: 700px;
-    margin: 40px auto;
-    text-align: center;
-}
 
-.calendar {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 5px;
-    margin-top: 20px;
-}
-
-.day-name {
-    font-weight: bold;
-    background: #222;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.day {
-    background: #f0f0f0;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.day:hover {
-    background: #dcdcdc;
-}
 
 .empty {
     background: transparent;
@@ -264,6 +235,51 @@ h2 {
     width: fit-content;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.calendar-section {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-row {
+    display: flex;
+}
+
+.calendar-cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar-cell.header {
+    font-weight: bold;
+    background: #eee;
+}
+
+.calendar-cell.today {
+    background: #4CAF50;
+    color: white;
+    border-radius: 50%;
 .home-content {
     width: 80%;
     margin: 0 auto;
