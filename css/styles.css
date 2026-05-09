@@ -389,7 +389,7 @@ POUR Courses And Programs
     max-width: 350px;
     height: 180px;
     object-fit: contain;
-    background-color: #ffffff;
+    background-color: #ffffff; /*tous les moyens de régler les images sont assez moches*/
     border-radius: 2px;
 }
 
