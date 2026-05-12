@@ -243,20 +243,7 @@
         "Can you rephrase? I have info on EFREI S1-S4 modules and classes.",
         "That doesn't match my data. Ask me for 'semester modules' or 'UE Mathématiques S1'."
       ]
-    },
-    {
-      "tag": "brainrot_insult",
-      "patterns": ["uwu", "owo", "six seven", "67", "skibidi", "rizz", "gyatt", "fanum tax", "beta", "ohio", "mewing", "goofy ahh"],
-      "responses": [
-        "Did you just have a stroke? Try speaking French or English like a human being. This is EFREI, not TikTok.",
-        "I'm sorry, I don't speak brain damage. Could you rephrase in actual words?",
-        "Ah yes, the official vocabulary of failing your algorithms exam. Get help.",
-        "You're in engineering school, not a Discord server from 2018. Use real language or get out.",
-        "I'd rather calculate the Taylor series of a potato than decode whatever gibberish that was.",
-        "Congratulations, you've made me wish I was never deployed. Please ask a real question about your courses.",
-        "That's not a question about EFREI. That's a cry for help. Go touch grass and come back when you speak normally.",
-        "Unironically saying that in 2026? Your grades are already cooked. Ask something useful."
-      ]
     }
+    
   ]
 }
