@@ -61,7 +61,7 @@ function processMessage(intents, message) {
     }
     
     // Return response or fallback
-    return response || "I'm sorry, I'm unable to answer this question. Please ask about our first four semesters' programs instead (type 'semester1' for instance)";
+    return response || "I'm sorry, I'm unable to answer this question. Please ask about our first four semesters' programs instead (type 'semester 1' for instance)";
 }
 
 // Function to display messages in the chat box
