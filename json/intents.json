@@ -17,27 +17,27 @@
     },
     {
       "tag": "semester1_modules",
-      "patterns": ["What modules in semester 1?", "S1 UEs", "S1", "Semester 1", "First semester,", "First", "Semester 1 modules", "S1 structure"],
+      "patterns": ["What modules in semester 1?", "S1 UEs", "Semester 1", "First semester,", "First", "Semester 1 modules", "S1 structure"],
       "responses": ["Semester 1 has these modules (UEs):\n• UE Informatique (8 credits)\n• UE Mathématiques (8 credits)\n• UE Physique et électronique (8 credits)\n• Other courses: FH101 (3cr), FL101 (3cr), LV2ANG (1cr)\n\nAsk me about 'UE Informatique S1' or 'UE Mathématiques S1' for specific classes."]
     },
     {
       "tag": "semester2_modules",
-      "patterns": ["Semester 2 modules", "S2 UEs", "What modules in S2?", "S2", "Second", "Semester 2", "Second semester"],
+      "patterns": ["Semester 2 modules", "S2 UEs", "What modules in S2?", "Second", "Semester 2", "Second semester"],
       "responses": ["Semester 2 modules (UEs):\n• UE Formation générale (5 credits)\n• UE Informatique (7 credits)\n• UE Mathématiques (7 credits)\n• UE Physique et électronique (7 credits)\n• Other courses: FHS201, LV2ANG, TI250, ST101, TOEIC blanc\n\nAsk me about 'UE Informatique S2' or 'UE Mathématiques S2' for details."]
     },
     {
       "tag": "semester3_modules",
-      "patterns": ["Semester 3 modules", "S3 UEs", "Modules in S3", "S3", "Third", "Semester 3", "Third semester"],
+      "patterns": ["Semester 3 modules", "S3 UEs", "Modules in S3", "Third", "Semester 3", "Third semester"],
       "responses": ["Semester 3 modules (UEs):\n• UE31 - Mathématiques (8 credits)\n• UE33 - Informatique générale (8 credits)\n• UE35 - Physique et électronique (8 credits)\n• UE37 - Formation générale (6 credits)\n\nAsk about 'UE Mathématiques S3', 'UE Informatique S3', etc."]
     },
     {
       "tag": "semester4_modules",
-      "patterns": ["Semester 4 modules", "S4 UEs", "Modules in S4", "S4", "Fourth", "Semester 4", "Fourth semester"],
+      "patterns": ["Semester 4 modules", "S4 UEs", "Modules in S4",, "Fourth", "Semester 4", "Fourth semester"],
       "responses": ["Semester 4 modules (UEs):\n• UE41 - Mathématiques (7 credits)\n• UE43 - Informatique générale (8 credits)\n• UE45 - Physique et électronique (7 credits)\n• UE47 - Formation générale (4 credits)\n• Other: TI450, ST102, FITOEIC-S4\n\nAsk about 'UE Mathématiques S4', 'UE Informatique S4', etc."]
     },
     {
       "tag": "semester5_modules",
-      "patterns": ["Semester 5 modules", "S5 UEs", "Modules in S5", "S5", "Fifth", "Semester 5", "Fifth semester"],
+      "patterns": ["Semester 5 modules", "S5 UEs", "Modules in S5", "Fifth", "Semester 5", "Fifth semester"],
       "responses": ["The modules past the first two years are sadly unavaliable as of now\n"]
     },
     {
