@@ -211,17 +211,14 @@ fieldset.quiz {
     border: 2px solid black;
     background-color : #eeeeee;
     border-radius: 8px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0% 8% 0% 7.5%;
-    font-weight: bold;
-}
+    margin: 0% 7.5% 5% 7.5%;
 
-#align_helper img {
-    max-width: 800px;
-    margin-left: auto;
-    height: auto;
+    font-weight: bold;
+    flex-wrap: wrap;
 }
 
 
@@ -415,8 +412,7 @@ POUR Courses And Programs
 }
 
 #align_helper img {
-    max-width: 800px;
-    height: auto;
+    width: 30%;
     margin-right: 0px;
 }
 
