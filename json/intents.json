@@ -232,18 +232,33 @@
     },
     {
       "tag": "grade_weights",
-      "patterns": ["Grading", "DE", "CC", "CE", "Weights", "How are grades calculated?"],
+      "patterns": ["Grading", "Exams", "Weights", "How are grades calculated?"],
       "responses": ["Common components:\n• DE = Final Exam\n• CC = Continuous Assessment (quizzes)\n• CE = In-class Exam\n• TP = Practical Work\n• TD = Tutorials\n• PRJ = Project\nWeights vary by course. Check each syllabus."]
     },
     {
       "tag": "fallback",
       "patterns": [],
       "responses": [
-        "I'm not sure about that. Try asking about a semester (e.g., 'modules in S3'), a module ('UE Informatique S2'), or a specific course code ('TI102I').",
-        "Can you rephrase? I have info on EFREI S1-S4 modules and classes.",
-        "That doesn't match my data. Ask me for 'semester modules' or 'UE Mathématiques S1'."
+        "I'm not sure about that. Try asking about a semester (e.g., 'modules in S3'), a module ('UE Informatique S2'), or a specific course code ('TI102I'). Else, type help to obtain a list of elements to ask about",
+        "Can you rephrase? I have info on EFREI S1-S4 modules and classes. Else, type help to obtain a list of elements to ask about",
+        "That doesn't match my data. Ask me for 'semester modules' or 'UE Mathématiques S1'. Else, type help to obtain a list of elements to ask about"
       ]
-    }
+    },
+    {
+    "tag": "help",
+    "patterns": [
+      "help",
+      "Help me",
+      "What can you do",
+      "What can I ask",
+      "How does this work",
+      "Support",
+      "I need help"
+    ],
+    "responses": [
+      "Here is what you can ask me:\n\n📘 Semesters:\n• Enter 'Semester 1' for information about the first semester\n• Enter 'Semester 2' for information about the second semester\n• Enter 'Semester 3' for information about the third semester\n• Enter 'Semester 4' for information about the fourth semester\n\n📚 Courses / UEs:\n• Ask 'UE Informatique S1', 'UE Mathématiques S2', etc.\n• Ask a course name like 'Python', 'Linear Algebra', 'Networks 1'\n\n📊 Grades & Info:\n• Ask 'Grading' to understand DE, CC, CE, TP\n• Ask 'Hardest class' to see difficult courses\n\n🎓 Other:\n• Ask 'Internship' for stage information\n• Ask 'Projects' for project details\n• Say 'Thanks' or 'Bye' for basic interactions\n\nTry asking something like: 'Semester 2 modules' or 'Python course'."
+    ]
+  }
     
   ]
 }
