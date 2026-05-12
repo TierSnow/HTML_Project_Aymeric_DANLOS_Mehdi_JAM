@@ -38,6 +38,7 @@ header a:hover {
 
 .forcebig {
     font-size: 37px;
+    width:85%;
 }
 
 body {
@@ -408,4 +409,39 @@ POUR Courses And Programs
 
 #blackline {
     background-color: #000000;
+}
+
+
+.faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.category {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.category img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
 }

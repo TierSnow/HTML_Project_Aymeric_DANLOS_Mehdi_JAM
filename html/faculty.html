@@ -1,195 +1,211 @@
 <!DOCTYPE html>
-<!-- HTML Version 5-->
-<html lang="en"> <!-- Specify language for browser-->
-<head> <!-- HTML document header -->
-    <title>Welcome to the EFREI Computer Science department website!</title> <!-- Tells the browser what title you give your page -->
-    <meta charset="UTF-8"> <!-- specifies character encoding to UTF-8-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EFREI Computer Science Department</title>
     <link rel="stylesheet" href="../css/styles.css">
-</head><!-- End of header tag -->
-<body><!-- Start of web page code -->
+</head>
+
+<body>
+
 <header>
-    <div class="header-stuff">
-        <div class="text">
-        <h1 class="forcebig">Welcome to the EFREI Computer Science department website!</h1>
-        <p class="forcebig">Explore our programs, faculty, and more.</p>
+    <div class="header-container">
+        <div class="header-text">
+            <h1>Welcome to the EFREI Computer Science Department</h1>
+            <p>Explore our programs, faculty, and more.</p>
         </div>
 
-
-    <a id="header-img" href="https://www.efrei.fr/"><img src="../img/efrei.png" alt="efrei_logo_img"></a>
+        <a href="https://www.efrei.fr/">
+            <img src="../img/efrei.png" alt="EFREI logo" class="logo">
+        </a>
     </div>
 
     <nav>
-        <ul>
-            <a href="./home.html">Home</a> •
-            <a href="./course_and_program.html">Courses and Training Programs</a> •
-            <a href="./faculty.html">The Efrei Faculty</a> •
-            <a href="./form.html">Form to fill</a>
+        <ul class="nav-links">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./course_and_program.html">Courses and Training Programs</a></li>
+            <li><a href="./faculty.html">Faculty</a></li>
+            <li><a href="./form.html">Form</a></li>
         </ul>
     </nav>
-
-
 </header>
 
 <main>
 
-<div>
+<section class="intro">
+    <h2>Faculty & Staff</h2>
+    <p>
+        The teaching team at EFREI brings together academic researchers and professional lecturers.
+        They support students in computer science, mathematics, data science, AI, communication,
+        and project management.
+    </p>
+</section>
 
-    <div>
-        <h1>Faculty/staff</h1>
-        <p id="intro">The teaching team at Efrei, a leading engineering school and institute of digital experts, brings together academic researchers and professional lecturers. They support students in learning computer science, mathematics, data science, artificial intelligence, marketing, communication, and project management. Discover their profiles and expertise to better understand the quality of teaching at Efrei.</p>
+<section class="faculty-grid">
 
+    <!-- Leadership -->
+    <div class="category">
+        <h3>Leadership & Management</h3>
+
+        <!-- Featured person -->
+        <h4>Frédéric MEUNIER</h4>
+        <img src="../img/direction.jpg" alt="Leadership team">
+        <h4>Other teachers:</h4>
+        <ul>
+            <li>Frédéric MEUNIER</li>
+            <li>Jeanine Ndour</li>
+            <li>Pascal Le Sager</li>
+            <li>Béatrice Essosso Mengue</li>
+            <li>Gabrielle Labastie-Coayrehourcq</li>
+            <li>Cécile Durand</li>
+            <li>Roxane Chevallier</li>
+            <li>Marion Thomas</li>
+            <li>Audrey Venumiere</li>
+            <li>Romain Charneau</li>
+            <li>Julien Lussiez</li>
+            <li>Sabrina Legond</li>
+            <li>Léa Delacroix</li>
+            <li>Romain Joubert</li>
+            <li>Zorica Kljajevic</li>
+            <li>Orélie Roget</li>
+            <li>Lucile Moreau</li>
+            <li>Marion Nazarre</li>
+            <li>Clémence Amoretti</li>
+        </ul>
     </div>
 
-  <div>
+    <!-- Mathematics -->
+    <div class="category">
+        <h3>Mathematics</h3>
 
-  
-
-    <div>
-      <h2>Leadership & Management</h2>
-      <img src="../img/direction.jpg">
-      <ol>
-        <li>Frédéric MEUNIER</li>
-        <li>Jeanine Ndour</li>
-        <li>Pascal Le Sager</li>
-        <li>Béatrice Essosso Mengue</li>
-        <li>Gabrielle Labastie-Coayrehourcq</li>
-        <li>Cécile Durand</li>
-        <li>Roxane Chevallier</li>
-        <li>Marion Thomas</li>
-        <li>Audrey Venumiere</li>
-        <li>Romain Charneau</li>
-        <li>Julien Lussiez</li>
-        <li>Sabrina Legond</li>
-        <li>Léa Delacroix</li>
-        <li>Romain Joubert</li>
-        <li>Zorica Kljajevic</li>
-        <li>Orélie Roget</li>
-        <li>Lucile Moreau</li>
-        <li>Marion Nazarre</li>
-        <li>Clémence Amoretti</li>
-      </ol>
+        <h4>Mouna DADAA</h4>
+        <img src="../img/maths.png" alt="Mathematics">
+        <h4>Other teachers:</h4>
+        <ul>
+            <li>Mouna DADAA</li>
+            <li>Youssef AIT EL MAHJOUB</li>
+            <li>Isabelle BADREAU</li>
+            <li>Félix BASCHENIS</li>
+            <li>Ibtihel BEN LTAIFA</li>
+            <li>Imène BENKERMI</li>
+            <li>Djamila BENMERZOUK</li>
+            <li>Zahraa MOHSEN</li>
+            <li>Léa MARACHLI</li>
+        </ul>
     </div>
 
-    <h2>EFREI Teaching Staff</h2>
+    <!-- Computer Science -->
+    <div class="category">
+        <h3>Computer Science</h3>
 
-    <div>
-      <h2>Mathematics</h2>
-      <img src="../img/maths.png">
-      <ul>
-        <li>Mouna DADAA</li>
-        <li>Youssef AIT EL MAHJOUB</li>
-        <li>Isabelle BADREAU</li>
-        <li>Félix BASCHENIS</li>
-        <li>Ibtihel BEN LTAIFA</li>
-        <li>Imène BENKERMI</li>
-        <li>Djamila BENMERZOUK</li>
-        <li>Zahraa MOHSEN</li>
-        <li>Léa MARACHLI</li>
-      </ul>
+        <h4>Youssef AIT EL MAHJOUB</h4>
+        <img src="../img/informatique.jpg" alt="Computer Science">
+        <h4>Other teachers:</h4>
+        <ul>
+            <li>Youssef AIT EL MAHJOUB</li>
+            <li>Jacques AUGUSTIN</li>
+            <li>Marciel BARROS PEREIRA</li>
+            <li>Kamel CHABCHOUB</li>
+            <li>Fabien CALCADO</li>
+            <li>Laurent CETINSOY</li>
+            <li>Safwan CHENDEB</li>
+            <li>Jean-Aymeric DIET</li>
+            <li>Mohamed Djallel DILMI</li>
+            <li>Halim DJERROUD</li>
+            <li>Nicolas FLASQUE</li>
+            <li>Asma GABIS</li>
+            <li>Salim NAHLE</li>
+            <li>Lamine BOUGUEROUA</li>
+            <li>Salim BOUZITOUNA</li>
+            <li>Korab JUPOLLI</li>
+            <li>Tahar MADI</li>
+            <li>Yessin NEGGAZ</li>
+            <li>Chafiq TITOUNA</li>
+            <li>Benoit CHARROUX</li>
+            <li>Mohamad MROUÉ</li>
+            <li>Gabriel MORGADO</li>
+            <li>Fridolin KWABIA</li>
+            <li>Yassine OBEID</li>
+            <li>Mano Joseph MATHEW</li>
+        </ul>
     </div>
 
-    <div>
-      <h2>Computer Science</h2>
-      <img src="../img/informatique.jpg">
-      <ul>
-        <li>Youssef AIT EL MAHJOUB</li>
-        <li>Jacques AUGUSTIN</li>
-        <li>Marciel BARROS PEREIRA</li>
-        <li>Kamel CHABCHOUB</li>
-        <li>Fabien CALCADO</li>
-        <li>Laurent CETINSOY</li>
-        <li>Safwan CHENDEB</li>
-        <li>Jean-Aymeric DIET</li>
-        <li>Mohamed Djallel DILMI</li>
-        <li>Halim DJERROUD</li>
-        <li>Nicolas FLASQUE</li>
-        <li>Asma GABIS</li>
-        <li>Salim NAHLE</li>
-        <li>Lamine BOUGUEROUA</li>
-        <li>Salim BOUZITOUNA</li>
-        <li>Korab JUPOLLI</li>
-        <li>Tahar MADI</li>
-        <li>Yessin NEGGAZ</li>
-        <li>Chafiq TITOUNA</li>
-        <li>Benoit CHARROUX</li>
-        <li>Mohamad MROUÉ</li>
-        <li>Gabriel MORGADO</li>
-        <li>Fridolin KWABIA</li>
-        <li>Yassine OBEID</li>
-        <li>Mano Joseph MATHEW</li>
-      </ul>
+    <!-- Physics -->
+    <div class="category">
+        <h3>Physics and Electronics</h3>
+
+        <h4>Ziad ADEM</h4>
+        <img src="../img/physic.jpg" alt="Physics">
+        <h4>Other teachers:</h4>
+        <ul>
+            <li>Ziad ADEM</li>
+            <li>Bader BELLAHSÈNE</li>
+            <li>Elie CHAHINE</li>
+            <li>Elizabeth COLIN</li>
+            <li>Laurie CONTEVILLE</li>
+            <li>Florent COTTON</li>
+            <li>Dina FAKIH</li>
+            <li>Rana FARHA</li>
+            <li>Alain HAROUN</li>
+            <li>Fridolin KWABIA</li>
+            <li>Florian LONGUETEAU</li>
+            <li>Sandy MAKHLOUF</li>
+            <li>Catherine MARECHAL</li>
+            <li>Didier MEIER</li>
+            <li>Anissa MERRAR</li>
+            <li>Mohamad MROUÉ</li>
+            <li>Gabriel MORGADO</li>
+            <li>Benoit PIRO</li>
+            <li>Iman RAGHEB</li>
+            <li>Charbel SABER</li>
+            <li>Mahamadou SEYDOU</li>
+            <li>Assia TABBI-ANNENI</li>
+            <li>Quang-Viet Michael TA</li>
+            <li>Chafiq TITOUNA</li>
+        </ul>
     </div>
 
-    <div>
-      <h2>Physics and Electronics</h2>
-      <img src="../img/physic.jpg">
-      <ul>
-          <li>Ziad ADEM</li>
-          <li>Bader BELLAHSÈNE</li>
-          <li>Elie CHAHINE</li>
-          <li>Elizabeth COLIN</li>
-          <li>Laurie CONTEVILLE</li>
-          <li>Florent COTTON</li>
-          <li>Dina FAKIH</li>
-          <li>Rana FARHA</li>
-          <li>Alain HAROUN</li>
-          <li>Fridolin KWABIA</li>
-          <li>Florian LONGUETEAU</li>
-          <li>Sandy MAKHLOUF</li>
-          <li>Catherine MARECHAL</li>
-          <li>Didier MEIER</li>
-          <li>Anissa MERRAR</li>
-          <li>Mohamad MROUÉ</li>
-          <li>Gabriel MORGADO</li>
-          <li>Benoit PIRO</li>
-          <li>Iman RAGHEB</li>
-          <li>Charbel SABER</li>
-          <li>Mahamadou SEYDOU</li>
-          <li>Assia TABBI-ANNENI</li>
-          <li>Quang-Viet Michael TA</li>
-          <li>Chafiq TITOUNA</li>
-      </ul>
+    <!-- Humanities -->
+    <div class="category">
+        <h3>Humanities & Business</h3>
+
+        <h4>Jean SOMA</h4>
+        <img src="../img/soma.jpg" alt="Humanities">
+        <h4>Other teachers:</h4>
+        <ul>
+            <li>Jean SOMA</li>
+            <li>Fella ADIMI</li>
+            <li>Dion ALVIRA NUNES</li>
+            <li>René BANCAREL</li>
+            <li>Félix BARANGER</li>
+            <li>Alexis CIOFFI</li>
+            <li>Ítalo COUTINHO</li>
+            <li>Cristiana DIAS</li>
+            <li>Nela FABEROVA</li>
+            <li>Philippe FERRANDIS</li>
+            <li>Eric FERRIE</li>
+            <li>Caroline FRUITET</li>
+            <li>Alexandra GIRAT-MAGIN</li>
+            <li>Sarah PANFIL</li>
+            <li>Alexis PARSAT-LACOSTE</li>
+            <li>Catherine PETITHORY</li>
+            <li>Bastien PESSEY</li>
+            <li>Camille POTIER</li>
+            <li>Hiie SAUMAA</li>
+            <li>Martha GATHERU</li>
+            <li>Pierre GUILLEMETTE</li>
+        </ul>
     </div>
 
-    <div>
-      <h2>Humanities, Communication, Business Sciences & Languages</h2>
-      <img src="../img/soma.jpg">
-      <ul>
-        <li>Jean SOMA</li>
-        <li>Fella ADIMI</li>
-        <li>Dion ALVIRA NUNES</li>
-        <li>René BANCAREL</li>
-        <li>Félix BARANGER</li>
-        <li>Alexis CIOFFI</li>
-        <li>Ítalo COUTINHO</li>
-        <li>Cristiana DIAS</li>
-        <li>Nela FABEROVA</li>
-        <li>Philippe FERRANDIS</li>
-        <li>Eric FERRIE</li>
-        <li>Caroline FRUITET</li>
-        <li>Alexandra GIRAT-MAGIN</li>
-        <li>Sarah PANFIL</li>
-        <li>Alexis PARSAT-LACOSTE</li>
-        <li>Catherine PETITHORY</li>
-        <li>Bastien PESSEY</li>
-        <li>Camille POTIER</li>
-        <li>Hiie SAUMAA</li>
-        <li>Martha GATHERU</li>
-        <li>Pierre GUILLEMETTE</li>
-      </ul>
-    </div>
-  </div>
+</section>
 
-</div>
 </main>
 
 <footer>
-
-
-    ©️2026 Efrei.
-    All rights reserved.
-    <a href="https://www.efrei.fr/">Find out more?</a>
+    <p>© 2026 EFREI. All rights reserved.</p>
+    <a href="https://www.efrei.fr/">Find out more</a> |
     <a href="./contact.html">About</a>
 </footer>
-</body><!-- End of web page code -->
-</html><!-- End of document -->
+
+</body>
+</html>
