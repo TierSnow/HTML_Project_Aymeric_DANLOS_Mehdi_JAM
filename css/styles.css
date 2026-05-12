@@ -216,7 +216,7 @@ fieldset.quiz {
     align-items: center;
     justify-content: space-between;
     margin: 0% 7.5% 5% 7.5%;
-
+    
     font-weight: bold;
     flex-wrap: wrap;
 }
