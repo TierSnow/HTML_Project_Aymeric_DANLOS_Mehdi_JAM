@@ -32,7 +32,7 @@
     },
     {
       "tag": "semester4_modules",
-      "patterns": ["Semester 4 modules", "S4 UEs", "Modules in S4",, "Fourth", "Semester 4", "Fourth semester"],
+      "patterns": ["Semester 4 modules", "S4 UEs", "Modules in S4", "Fourth", "Semester 4", "Fourth semester"],
       "responses": ["Semester 4 modules (UEs):\n• UE41 - Mathématiques (7 credits)\n• UE43 - Informatique générale (8 credits)\n• UE45 - Physique et électronique (7 credits)\n• UE47 - Formation générale (4 credits)\n• Other: TI450, ST102, FITOEIC-S4\n\nAsk about 'UE Mathématiques S4', 'UE Informatique S4', etc."]
     },
     {
