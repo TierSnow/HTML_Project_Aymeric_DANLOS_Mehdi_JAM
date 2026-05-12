@@ -390,7 +390,7 @@ POUR Courses And Programs
     max-width: 350px;
     height: 180px;
     object-fit: contain;
-    background-color: #ffffff; /*tous les moyens de régler les images sont assez moches*/
+    background-color: #ffffff; 
     border-radius: 2px;
 }
 
@@ -444,4 +444,30 @@ POUR Courses And Programs
 
 .logo {
     width: 120px;
+}
+
+
+.credits-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.credit-card, .info-card {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.info-grid h2 {
+    font-size: 24px;
+    margin-left: 10px;
+    width: 100%;
 }
