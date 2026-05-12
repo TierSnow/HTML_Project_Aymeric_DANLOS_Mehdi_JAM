@@ -449,25 +449,45 @@ POUR Courses And Programs
 
 .credits-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 20px;
     margin-bottom: 30px;
 }
 
 .info-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 20px;
+
+    /* 🔥 prevents horizontal scroll issues */
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
-.credit-card, .info-card {
+.credit-card,
+.info-card {
     background: #f4f4f4;
     padding: 15px;
     border-radius: 10px;
+
+    /* 🔥 important overflow safety */
+    min-width: 0;
+    box-sizing: border-box;
 }
 
+/* FIX headings causing overflow */
 .info-grid h2 {
-    font-size: 24px;
-    margin-left: 10px;
+    font-size: 22px;
+    margin-left: 0;
     width: 100%;
+
+    /* 🔥 prevents long headings from breaking layout */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.info-grid h3 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
