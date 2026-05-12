@@ -471,8 +471,6 @@ POUR Courses And Programs
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 20px;
-
-    /* 🔥 prevents horizontal scroll issues */
     max-width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -483,19 +481,15 @@ POUR Courses And Programs
     background: #f4f4f4;
     padding: 15px;
     border-radius: 10px;
-
-    /* 🔥 important overflow safety */
     min-width: 0;
     box-sizing: border-box;
 }
 
-/* FIX headings causing overflow */
+
 .info-grid h2 {
     font-size: 22px;
     margin-left: 0;
     width: 100%;
-
-    /* 🔥 prevents long headings from breaking layout */
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
